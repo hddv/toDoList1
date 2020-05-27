@@ -23,7 +23,8 @@ h2{
 }
 
 .box {
-  max-width: 400px;
+  max-width: 350px;
+  max-height: 320px;
   margin: 25px auto;
   background: white;
   border-radius: 5px;
@@ -31,10 +32,6 @@ h2{
   
 }
 
-.boxContent{
-  
-  max-height: 320px;
-}
 
 #heading {
   background-color: #A683E3;
@@ -45,7 +42,7 @@ h2{
 .item {
   min-height: 65px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   border-bottom: 1px solid #F1F1F1;
 }
 
@@ -63,7 +60,7 @@ ul{
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + label {
   text-decoration: line-through;
   text-decoration-color: #A683E3;
 }
@@ -74,7 +71,7 @@ input[type="checkbox"] {
 
 p {
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
@@ -87,8 +84,8 @@ form {
 }
 
 button {
-  min-height: 50px;
-  min-width: 50px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   border-color: transparent;
   background-color: #A683E3;
@@ -96,6 +93,7 @@ button {
   font-size: 30px;
   padding-bottom: 6px;
   border-width: 0;
+  margin-right: 10px;
 }
 
 
@@ -128,6 +126,9 @@ footer {
   text-align: center;
 }
 
+.flexRow{
+  flex-direction: row;
+}
 
 
 
@@ -137,7 +138,7 @@ footer {
 
 */
 
-@media only screen and (min-width: 1025px) {
+/* @media only screen and (min-width: 1025px) {
 .site-content ul {
     -moz-column-count: 4;
     -moz-column-gap: 48px;
@@ -164,6 +165,6 @@ footer {
 .site-content li {
     margin-bottom: 40px;
     break-inside: avoid !important;
-} 
+}  */
 
 
