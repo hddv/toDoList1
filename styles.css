@@ -16,11 +16,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2{
-  /* position: relative; */
-  margin: 0 auto;
-  padding-left: 30%;
-}
+
 
 .box {
   max-width: 350px;
@@ -37,6 +33,12 @@ h2{
   background-color: #A683E3;
   text-align: center;
   margin: 0 auto;
+}
+
+.heading2{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
 }
 
 .item {
